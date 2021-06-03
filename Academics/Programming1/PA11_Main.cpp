@@ -5,7 +5,7 @@
 	Created: 4/05/2021
 *
 * ASSIGNMENT
-* In this assignment, you will be writing a program to help a teacher calculate the final grade for all the exams a student has taken. The student’s lowest grade must be dropped from the average.
+* In this assignment, you will be writing a program to help a teacher calculate the final grade for all the exams a student has taken. The studentâ€™s lowest grade must be dropped from the average.
 The program is required to have the following functions:
 *	void GetScore(double & score)
 	o	This function should prompt the user for a test score, the test scored entered should be stored in the reference parameter.

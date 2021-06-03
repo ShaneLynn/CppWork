@@ -43,34 +43,34 @@
 
   
 * The program uses these functions to interact with main() and generate the calculations for the program:
-•	int RetreiveSeatPrices(double seatPrices[]);
+â€¢	int RetreiveSeatPrices(double seatPrices[]);
 	o	Pulls seat prices from the SeatPrices.txt file and stores them into the seatPrices array
 	o	Returns 0 for the main function to end the program if the file is not found on loading
 
-•	void DisplayAvailableSeats(char[][firstClassColumns], char[][coachClassColumns], int, int, int, int, int, int);
+â€¢	void DisplayAvailableSeats(char[][firstClassColumns], char[][coachClassColumns], int, int, int, int, int, int);
 	o 	Pulls in the seat arrays and the variables to adjust the available seats
 	o	Calculates filled and remaining seats for the user
 	
-•	void FlightSoldSeats(int, int, int);
+â€¢	void FlightSoldSeats(int, int, int);
 	o	Calculates and displays the current seats sold/reserved in the system total and by class
 
-•	void FlightEmptySeats(int, int, int);
+â€¢	void FlightEmptySeats(int, int, int);
 	o	The reverse of the seats sold function, this one shows all of the currently available seats on the flight by class
 
-•	void EmptySeatsByRow(char[][firstClassColumns], char[][coachClassColumns]);
+â€¢	void EmptySeatsByRow(char[][firstClassColumns], char[][coachClassColumns]);
 	o	Calculates and displays to the user how many seats are empty by class and row on the flight
 
-•	void FlightSales(double, double, double);
+â€¢	void FlightSales(double, double, double);
 	o	Calculates the dollar amount of all of the seats sold and by class on the flight
 	o	Displays the results to the user using 2 decimal places for currency.
 
-•	void ReserveSeats(char[][firstClassColumns], char[][coachClassColumns], double[], int&, int&, int&, int&, int&, int&, double&, double&, double&);
+â€¢	void ReserveSeats(char[][firstClassColumns], char[][coachClassColumns], double[], int&, int&, int&, int&, int&, int&, double&, double&, double&);
 	o	Pulls in all variables and arrays as reference
 	o	Asks for user input to make seat selections
 	o	Calls the DisplayAvailableSeats function to make it easy for the user to select the row and column IDs for their choice
 	o	Validation does not allow choices outside of valid rows/columns or reserving already purchased seats
 
-•	void ResetReservations(char[][firstClassColumns], char[][coachClassColumns], int&, int&, int&, int&, int&, int&, double&, double&, double&);
+â€¢	void ResetReservations(char[][firstClassColumns], char[][coachClassColumns], int&, int&, int&, int&, int&, int&, double&, double&, double&);
 	o	Pulls in the variables and arrays to reset all of the reservation changes back to a no sales state
 
 *

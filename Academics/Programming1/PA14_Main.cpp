@@ -22,29 +22,29 @@
  And, the program also uses the global constants (ROWS and COLS) to control the array sizes for the table structure.
  
 * The program uses these functions to interact with main() and generate the data for the report:
-•	double CalculateTotal(double [][COLS]);
+â€¢	double CalculateTotal(double [][COLS]);
 	o	Calculate the total of the complete array
 	o	Does not calculate the totals in the last column and last row.
 	o	Return the array total.
-•	double CalculateAverage(double [][COLS]);
+â€¢	double CalculateAverage(double [][COLS]);
 	o	Calculate the average of all the values in the array
 	o	Does not calculate the totals in the last column and last row (4*4 elements, not 5*5).
 	o	Return the average.
-•	double CalculateRowTotal(double [][COLS], int);
+â€¢	double CalculateRowTotal(double [][COLS], int);
 	o	Calculate the total for a specific row using the second parameter.
 	o	Returns the total for the specified row.
-•	double CalculateColumnTotal(double [][COLS], int);
+â€¢	double CalculateColumnTotal(double [][COLS], int);
 	o	Calculates the total for a specific column using the second parameter.
 	o	Return the total for the specified column.
-•	double FindHighest(double [][COLS], int&, int&);
+â€¢	double FindHighest(double [][COLS], int&, int&);
 	o	Finds the highest sales in the array.
 	o	Finds the index values (row, column) of the highest QTR, and changes the variables in main
 	o	Return the highest sales amount.
-•	double FindLowest(double [][COLS], int&, int&);
+â€¢	double FindLowest(double [][COLS], int&, int&);
 	o	Finds the lowest sales in the array.
 	o	Finds the index values (row, column) of the lowest QTR, and changes the variables in main.
 	o	Return the lowest sales amount.
-•	void CollectSalesData(double [], string [], string []);
+â€¢	void CollectSalesData(double [], string [], string []);
 	o	Collects input from the user and stores it in the sales[][] array by division and qtr
 	o	Uses collected parameters to generate
 

@@ -119,11 +119,11 @@ at least 2000						$0.052 per kWh for first 1000 kWh used
 *	Display setprecision to 2, fixed, showpoint
 *	Display "\newline"
 	Display "Customer Name:                                " << customerName
-•	Display	"Base Bill Amount (undiscounted and untaxed): $" << totalBaseBill
-•	Display "Discount Amount:                             $" << totalDiscount
-•	Display	"State Utility Tax Amount:                    $" << totalStateTax
-•	Display	"City Utility Tax Amount:                     $" << totalCityTax
-•	Display	"Total Amount Due:                            $" << totalAmountDue
+â€¢	Display	"Base Bill Amount (undiscounted and untaxed): $" << totalBaseBill
+â€¢	Display "Discount Amount:                             $" << totalDiscount
+â€¢	Display	"State Utility Tax Amount:                    $" << totalStateTax
+â€¢	Display	"City Utility Tax Amount:                     $" << totalCityTax
+â€¢	Display	"Total Amount Due:                            $" << totalAmountDue
 	Display "\newline"
 
 	Display "Thank you for using the system.  Press any key to close..."

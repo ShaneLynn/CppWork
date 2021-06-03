@@ -16,28 +16,28 @@
 
 *
 * The program uses the following functions to interact with main() and handle the data collection and calculations:
-•	void CollectRainData(double [ ], string [ ], int);
+â€¢	void CollectRainData(double [ ], string [ ], int);
 	o	Collects user input of the rain totals for each month
 	o	Parameter 1, directs to the array for rainfail totals
 	o	Parameter 2, directs to the string array of month names
 	o	Parameter 3, collects the size of the arrays from the total months in the year
-•	double CalculateTotalRainfall(double [ ], int);
+â€¢	double CalculateTotalRainfall(double [ ], int);
 	o	Calculates the total rainfall from the array parameter.
 	o	Return the value
-•	double CalculateAverage(double, int);
+â€¢	double CalculateAverage(double, int);
 	o	Calculate the Average rainfall
 	o	Parameter 1, is for the total rainfall
 	o	Parameter 2, is for the number of months
 	o	Return the value
-•	double FindLowest(double [ ], int, int&);
+â€¢	double FindLowest(double [ ], int, int&);
 	o	Finds the month with the lowest amount of rainfall
 	o	Parameter 3, is for the index of the lowest month
 	o	Return the value
-•	double FindHighest(double [ ], int, int&);
+â€¢	double FindHighest(double [ ], int, int&);
 	o	Finds the month with the highest amount of rainfall
 	o	Parameter 3, is for the index of the lowest month
 	o	Return the value
-•	void DisplayResults(double, double, double, string, double, string);
+â€¢	void DisplayResults(double, double, double, string, double, string);
 	o	Displays the results to the user (format shown below)
 	o	Parameter 1, is for the total rainfall
 	o	Parameter 2, is for the average rainfall
@@ -46,12 +46,12 @@
 	o	Parameter 3, is the total for the month with the lowest rainfall
 	o	Parameter 6, is for the month name with the lowest rainfall
 
-•	string DisplayHighest(int, int);
+â€¢	string DisplayHighest(int, int);
 	o	Compares the parameter input (highest month index) to the array for a match
 	o	Parameter 2 uses the global months to determine array size
 	o	Displays the month name from the month array
 	o	Return the value
-•	string DisplayLowest(int, int);
+â€¢	string DisplayLowest(int, int);
 	o	Compares the parameter input (lowest month index) to the array for a match
 	o	Parameter 2 uses the global months to determine array size
 	o	Displays the month name from the month array

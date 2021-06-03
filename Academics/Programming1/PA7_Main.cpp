@@ -20,7 +20,7 @@
 		-Triangle area = base * height * 0.5
 		-Trapezoid area = height/2 * (b1 +b2)
 		-Sphere area = 4 * PI *r2
-•	
+â€¢	
 	This program should display the following menu:
 		Calculator Options:
 		1.	Calculate the area of a circle
